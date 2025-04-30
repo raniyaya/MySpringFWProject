@@ -3,7 +3,7 @@
 	"http://mybatis.org/dtd/mybatis-3-config.dtd">
 
 <configuration>
-	<!-- log4j2 설정 SQ-->
+	<!-- SQL문을 로그에 출력 해주는 log4j2 설정  -->
 	<settings>
          <setting name="defaultStatementTimeout" value="3"/> 
          <setting name="logImpl" value="LOG4J2"/>
@@ -14,7 +14,6 @@
 	</typeAliases>
 
 </configuration>
-
 
 
 
