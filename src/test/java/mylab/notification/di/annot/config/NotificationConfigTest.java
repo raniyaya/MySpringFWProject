@@ -1,4 +1,4 @@
-package notification.di.annot.config;
+package mylab.notification.di.annot.config;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -12,6 +12,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import mylab.notification.di.annot.EmailNotificationService;
 import mylab.notification.di.annot.NotificationManager;
 import mylab.notification.di.annot.SmsNotificationService;
+import notification.di.annot.config.NotificationConfig;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = NotificationConfig.class)
